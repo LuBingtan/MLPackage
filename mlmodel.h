@@ -46,4 +46,5 @@ public:
 	/******************recognition method******************/
 public:
 	virtual DataType  recognize(DataType input) = 0;
+	bool test;
 };
